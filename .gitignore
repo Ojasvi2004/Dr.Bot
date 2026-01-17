@@ -1,0 +1,15 @@
+backend/app/model/data/*
+backend/app/model/data/pdf_process_pipeline/
+!backend/app/model/data/pdf_process_pipeline/scripts
+
+
+backend/app/model/embeddings/*
+!backend/app/model/embeddings/.gitkeep
+
+backend/app/model/embeddings.npy
+
+.env
+__pycache__/
+
+
+models/*
