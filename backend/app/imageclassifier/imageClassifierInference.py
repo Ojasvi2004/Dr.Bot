@@ -11,7 +11,7 @@ image2=cv2.imread("D:/ML/test.jpg")
 device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model=imageClassifier.MySimpleCNN(classes=7).to(device)
-model.load_state_dict(torch.load("D:/ML/Dr.Bot/backend/app/imageclassifier/imageClassifier.pth", map_location=device,weights_only=True))
+model.load_state_dict(torch.load("D:/ML/Dr.Bot/backend/app/imageclassifier/imageClassifier.pth",map_location=device,weights_only=True))
 model.eval()
 
 mytransform=transforms.Compose(
@@ -52,7 +52,7 @@ def predict_image(image):
         pred_idx = output.argmax(dim=1).item()
         confidence = torch.softmax(output, dim=1)[0][pred_idx].item()
 
-    return idx_to_class[pred_idx], confidence
+    return idx_to_class[pred_idx],confidence
 
 # print(predict_image(image))
 print(predict_image(image2))
