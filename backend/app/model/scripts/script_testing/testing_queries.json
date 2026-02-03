@@ -1,0 +1,205 @@
+[  {
+        "question": "Analyze my Health record and see if there is anything wrong.Also give me the contexts from where that you recieved and book names",
+        "patient":{
+  "patient_id": "PAT-000872",
+  "demographics": {
+    "first_name": "Arjun",
+    "last_name": "Mehta",
+    "gender": "Male",
+    "date_of_birth": "1986-04-17",
+    "age": 39,
+    "blood_group": "B+",
+    "marital_status": "Married",
+    "nationality": "Indian",
+    "language": ["English", "Hindi"],
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "postal_code": "560102"
+    }
+  },
+
+  "contact_information": {
+    "phone": "+91-9XXXXXXXXX",
+    "email": "arjun.mehta@example.com",
+    "emergency_contact": {
+      "name": "Riya Mehta",
+      "relationship": "Spouse",
+      "phone": "+91-9XXXXXXXXX"
+    }
+  },
+
+  "medical_history": {
+    "chronic_conditions": [
+      "Type 2 Diabetes Mellitus",
+      "Hypertension",
+      "Dyslipidemia"
+    ],
+    "past_illnesses": [
+      "Dengue Fever (2016)",
+      "COVID-19 (Mild, 2021)"
+    ],
+    "surgeries": [
+      {
+        "procedure": "Appendectomy",
+        "year": 2012,
+        "complications": "None"
+      }
+    ],
+    "family_history": {
+      "father": ["Type 2 Diabetes", "Coronary Artery Disease"],
+      "mother": ["Hypothyroidism"],
+      "siblings": []
+    },
+    "allergies": [
+      {
+        "substance": "Penicillin",
+        "reaction": "Rash"
+      }
+    ]
+  },
+
+  "lifestyle_and_social_history": {
+    "smoking_status": "Never",
+    "alcohol_consumption": "Occasional",
+    "diet": "Mixed (High carbohydrate intake)",
+    "physical_activity": "Low",
+    "sleep_hours_per_day": 6,
+    "occupation": "Software Engineer",
+    "stress_level": "High"
+  },
+
+  "vital_signs": {
+    "last_recorded": "2026-01-29",
+    "height_cm": 174,
+    "weight_kg": 86,
+    "bmi": 28.4,
+    "blood_pressure_mmHg": "142/92",
+    "heart_rate_bpm": 84,
+    "respiratory_rate_per_min": 18,
+    "oxygen_saturation_percent": 97,
+    "body_temperature_celsius": 36.8
+  },
+
+  "current_symptoms": [
+    "Fatigue",
+    "Occasional headaches",
+    "Increased thirst",
+    "Blurred vision"
+  ],
+
+  "laboratory_results": {
+    "blood_tests": {
+      "fasting_blood_glucose_mg_dl": 162,
+      "postprandial_glucose_mg_dl": 248,
+      "hbA1c_percent": 8.1,
+      "total_cholesterol_mg_dl": 232,
+      "ldl_mg_dl": 148,
+      "hdl_mg_dl": 38,
+      "triglycerides_mg_dl": 210,
+      "serum_creatinine_mg_dl": 1.1,
+      "egfr_ml_min": 78,
+      "hemoglobin_g_dl": 13.9,
+      "wbc_count_per_ul": 7200,
+      "platelet_count_per_ul": 250000
+    },
+    "urine_tests": {
+      "albumin_creatinine_ratio_mg_g": 42,
+      "ketones": "Negative",
+      "glucose": "Trace"
+    }
+  },
+
+  "imaging_and_diagnostics": {
+    "ecg": {
+      "date": "2026-01-20",
+      "result": "Normal sinus rhythm"
+    },
+    "chest_xray": {
+      "date": "2025-11-10",
+      "result": "No active cardiopulmonary disease"
+    },
+    "fundoscopy": {
+      "date": "2026-01-05",
+      "result": "Mild non-proliferative diabetic retinopathy"
+    }
+  },
+
+  "medications": {
+    "current": [
+      {
+        "name": "Metformin",
+        "dosage": "500 mg",
+        "frequency": "Twice daily",
+        "route": "Oral"
+      },
+      {
+        "name": "Amlodipine",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "route": "Oral"
+      },
+      {
+        "name": "Atorvastatin",
+        "dosage": "20 mg",
+        "frequency": "Once daily at night",
+        "route": "Oral"
+      }
+    ],
+    "previous": [
+      {
+        "name": "Glimepiride",
+        "reason_for_discontinuation": "Hypoglycemic episodes"
+      }
+    ]
+  },
+
+  "clinical_assessments": {
+    "primary_diagnoses": [
+      "Poorly controlled Type 2 Diabetes Mellitus",
+      "Stage 1 Hypertension",
+      "Early diabetic nephropathy"
+    ],
+    "risk_factors": [
+      "Sedentary lifestyle",
+      "Family history of cardiovascular disease",
+      "Obesity"
+    ],
+    "complications": [
+      "Diabetic retinopathy (early stage)",
+      "Microalbuminuria"
+    ]
+  },
+
+  "treatment_plan": {
+    "goals": [
+      "Reduce HbA1c below 7%",
+      "Achieve blood pressure <130/80 mmHg",
+      "Weight reduction"
+    ],
+    "recommendations": [
+      "Dietary carbohydrate restriction",
+      "Increase physical activity to 150 minutes/week",
+      "Regular blood glucose monitoring",
+      "Annual retinal and renal screening"
+    ],
+    "follow_up": {
+      "next_visit": "2026-03-15",
+      "tests_ordered": [
+        "HbA1c",
+        "Lipid profile",
+        "Urine microalbumin"
+      ]
+    }
+  },
+
+  "metadata": {
+    "record_created_at": "2026-01-30T14:22:00Z",
+    "record_last_updated": "2026-01-30T14:22:00Z",
+    "data_source": "Synthetic EHR for AI model testing",
+    "compliance": ["HIPAA-safe", "Synthetic"]
+  }
+}
+
+    }]

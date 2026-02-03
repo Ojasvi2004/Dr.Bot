@@ -1,3 +1,6 @@
+import os
+
+os.environ["HF_HOME"] = "E:/hf_cache"
 from sentence_transformers import SentenceTransformer
 import os
 import numpy as np
@@ -57,6 +60,10 @@ def embed_chunks(directory):
     print(" Embedding process completed.")
     
 if __name__=="__main__":
+  
+
+# Only then try to initialize
+
     embed_chunks(CHUNKS_DIRECTORY)
     
     
