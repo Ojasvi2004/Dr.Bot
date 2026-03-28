@@ -7,7 +7,7 @@ import numpy as np
 import json
 from tqdm import tqdm
 
-from train_Config import EMBEDDING_DIRECTORY,META_DATA_DIRECTORY,CHUNKS_DIRECTORY
+from src.rag.components.train_Config import EMBEDDING_DIRECTORY,META_DATA_DIRECTORY,CHUNKS_DIRECTORY
 
 model=SentenceTransformer("BAAI/bge-base-en-v1.5")
 

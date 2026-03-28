@@ -6,17 +6,18 @@ faiss-cpu
 chromadb
 pandas
 datasets
-pymupdf       # fitz for PDF extraction
-langchain   # for text splitter (or you can write custom splitter)
-tqdm          # progress bars
-datasets      # huggingface datasets for merging
-sentencepiece  # sometimes needed for tokenizers
-spacy 
-medspacy 
-presidio-analyzer 
+pymupdf              # correct PDF library (NOT fitz)
+langchain
+tqdm
+sentencepiece
+spacy
+presidio-analyzer
 presidio-anonymizer
-scispacy
-medcat 
-pyConTextNLP 
-stanza 
-asyncio
+pyConTextNLP
+stanza
+opencv-python        # correct (NOT cv2)
+pytesseract
+python-dotenv   # instead of dotenv (better)
+langchain_google_genai
+pinecone
+langchain_pinecone

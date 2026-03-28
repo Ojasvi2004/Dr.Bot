@@ -11,9 +11,9 @@ from langchain_core.documents import Document
 from langchain_community.docstore.in_memory import InMemoryDocstore
 from pinecone import Pinecone,ServerlessSpec
 
-from embed import _load_chunks
+from src.rag.components.embed import _load_chunks   
 
-from train_Config import EMBEDDING_DIRECTORY,META_DATA_DIRECTORY,CHUNKS_DIRECTORY
+from src.rag.components.train_Config import EMBEDDING_DIRECTORY,META_DATA_DIRECTORY,CHUNKS_DIRECTORY
 
 from langchain.embeddings.base import Embeddings
 import numpy as np
